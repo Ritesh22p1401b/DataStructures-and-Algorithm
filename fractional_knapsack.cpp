@@ -31,12 +31,10 @@ int main(){
       cin>> a[i].ff >> a[i].ss;
    }
 
-   int w;
+   int w; //knapsack capacity
    cin>>w;
 
    sort(a.begin(),a.end(),compare);
-
-   
 
    rep(i,0,n){
 
