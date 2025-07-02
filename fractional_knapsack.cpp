@@ -35,7 +35,7 @@ int main(){
    cin>>w;
 
    sort(a.begin(),a.end(),compare);
-
+   
    rep(i,0,n){
 
       if(w >= a[i].ss){
