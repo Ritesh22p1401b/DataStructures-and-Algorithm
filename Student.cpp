@@ -34,8 +34,7 @@ int main() {
     for(int i=0;i<3;i++){
         if(students[i].subjects[i]=="DS"){
             if(students[i].marks[i]>75<90){
-                cout<<"fast learner"<<endl;
-                cout<<students[i].name;
+                students[i].name;
                 continue;
             }
             if(students[i].marks[i]<75){
